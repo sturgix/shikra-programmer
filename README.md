@@ -4,7 +4,7 @@
 
 1. Install Libusb: `sudo apt-get install libusb-dev` on linux. OSX can skip this step.
 2. Make sure you have pip installed: `sudo apt-get install python-pip` on Linux.
-3. Install pyusb python libusb bindings: `sudo pip install pyusb`. On Linux, might need `--pre` option: `sudo pip install --pre pysub`
+3. Install pyusb python libusb bindings: `sudo pip install pyusb`. On Linux, might need `--pre` option: `sudo pip install --pre pyusb`
 4. After inserting the device (on Linux), remove kernel module that may have been automatically loaded to prevent conflicts: `sudo rmmod ftdi_sio`
 5. Run Shikra programming utility: `sudo ./shikra.py` Root access is needed to be able to Read and Write to the Shikra USB Device.
 
